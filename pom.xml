@@ -12,6 +12,7 @@
         <module>threadfuture</module>
         <module>twophaseterminal</module>
         <module>threadspecialstorage</module>
+        <module>activeObject</module>
     </modules>
 
 
