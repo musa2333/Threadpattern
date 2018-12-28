@@ -1,10 +1,12 @@
-import java.util.concurrent.Future;
+package ActiveObject;
+
+import Result.Result;
 
 /**
  * @author Musa
  * created  on 2018/12/28
  */
 public interface ActiveObject {
-    public abstract Result<String>  makingString(int count,char fillchar);
+    public abstract Result<String> makingString(int count, char fillchar);
     public abstract void displayString(String string);
 }

@@ -1,3 +1,7 @@
+package Channel;
+
+import Method.MethodReuqest;
+
 /**
  * @author Musa
  * present to like channel for consumer and producer

@@ -1,3 +1,7 @@
+package ActiveObject;
+
+import Result.Result;
+
 /**
  * @author Musa
  * created  on 2018/12/28
@@ -13,7 +17,7 @@ public class Servant implements ActiveObject {
                 e.printStackTrace();
             }
         }
-        return new RealResult<String>(new String(buffer));
+        return new Result.RealResult<String>(new String(buffer));
     }
 
     public void displayString(String string) {

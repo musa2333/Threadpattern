@@ -1,3 +1,7 @@
+package Result;
+
+import Result.Result;
+
 /**
  * @author Musa
  * created  on 2018/12/28

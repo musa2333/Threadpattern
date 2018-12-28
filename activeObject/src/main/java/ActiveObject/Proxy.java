@@ -1,3 +1,10 @@
+package ActiveObject;
+
+import Channel.SchedulerThread;
+import Method.DisplayStringRequest;
+import Method.MakeStringRequest;
+import Result.Result;
+
 /**
  * @author Musa
  * created  on 2018/12/28
@@ -11,7 +18,7 @@ public class Proxy implements ActiveObject {
     }
 
     public Result<String> makingString(int count, char fillchar) {
-        FutureResult<String> future=new FutureResult<String>();
+        Result.FutureResult<String> future=new Result.FutureResult<String>();
         this.scheduler.invoke(new MakeStringRequest(servant,future,count,fillchar));
         return future;
     }
